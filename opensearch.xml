@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Android Romli NET</ShortName>
+  <LongName>Search on Android Romli.NET</LongName>
+  <Description>Search content from blog posts at Android Romli.NET</Description>
+  <Image type="https://android.romli.net/favicon.ico" height="16" width="16">image/x-icon</Image>
+  <Developer>Android Romli.NET</Developer>
+  <Url type="application/atom+xml" template="https://android.romli.net/search?q={searchTerms}&amp;feed=atom"/>
+  <Url type="application/rss+xml" template="https://android.romli.net/search?q={searchTerms}&amp;feed=rss2"/>
+  <Url type="text/html" template="https://android.romli.net/search?q={searchTerms}" method="GET" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="URL FILE" />
+</OpenSearchDescription>
